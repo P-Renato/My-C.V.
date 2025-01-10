@@ -1,4 +1,4 @@
-![Profile Picture](CV-Image-profile.jpg)
+![Profile Picture](CV-Image-profile-1.jpg)
 
 
 # Renato de Bakker's C.V.
@@ -11,7 +11,7 @@
 ## Skills
 
 - **Programming Languages**: HTML, CSS
-- **Tools**: Git, Visual Studio Code
+- **Tools**: Git, Visual Studio Code, 
 
 ## Professional Summary
 
