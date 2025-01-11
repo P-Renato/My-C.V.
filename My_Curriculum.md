@@ -16,7 +16,7 @@ I'm a Web Developer, a musician, and a video creator.
 
 **Web Development**: HTML, CSS
 
-**Tools**: Git, Visual Studio Code
+**Tools**: Git, GitHub, Visual Studio Code
 
 **Soft Skills**: Communication, Problem-solving, Teamwork
 

@@ -11,8 +11,12 @@
 ## Skills
 
 - **Programming Languages**: HTML, CSS
-- **Tools**: Git, Visual Studio Code, 
+- **Tools**: Git, GitHub, Visual Studio Code, 
 
-## Professional Summary
+## Professional Summary:
 
 I'm a Web Developer, a musician, and a video creator
+
+## Extras:
+
+DaVinci Resolve
