@@ -35,8 +35,8 @@ I'm a Web Developer, a musician, and a video creator.
 - Advanced Level:
     - English
     - Spanish
-- Intermidiate Level:
+- Intermediate Level:
     - German
 - Basic Level:
-    - Italian
+    - Italiang
     - Czech
