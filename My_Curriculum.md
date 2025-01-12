@@ -22,4 +22,21 @@ I'm a Web Developer, a musician, and a video creator.
 
 **Extra**: DaVince Resolve
 
-**Music Skills**: I play Guitar, Bass, and Cajon.
+**Music Instruments**: 
+
+- Guitar
+- Bass
+- Cajon
+
+**Languages**
+
+- Mother-tonge:
+    - Portuguese
+- Advanced Level:
+    - English
+    - Spanish
+- Intermidiate Level:
+    - German
+- Basic Level:
+    - Italian
+    - Czech
