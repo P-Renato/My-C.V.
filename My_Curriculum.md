@@ -21,3 +21,5 @@ I'm a Web Developer, a musician, and a video creator.
 **Soft Skills**: Communication, Problem-solving, Teamwork
 
 **Extra**: DaVince Resolve
+
+**Music Skills**: I play Guitar, Bass, and Cajon.
