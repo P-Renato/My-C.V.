@@ -1,4 +1,5 @@
 ![Profile Picture](CV-Image-profile-1.png)
+![Profile Picture](Playing-cajon-img.jpg)
 
 
 # Renato de Bakker's C.V.
