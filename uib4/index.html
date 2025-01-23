@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Tables</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>HTML Tables</h1>
+
+    <p>the html table elment represents tabular data - 
+        information presented in a two-dimensional 
+        table made up by rows and columns.</p>
+
+        <table class="rappers">
+            <!--  table elemnets like tr, td need to be nested 
+              insside the proper parent -->
+
+                <!-- HEAD -->
+            <tr>
+                <thead>
+
+                    <!-- Colspan is an attribute to allow table cells 
+                     to span over multiple columns -->
+                     
+                    <th colspan="2">Rappers</th> <!-- table header -->
+
+                </thead>
+            </tr>
+            <!-- BODY -->
+            <tbody>
+                <tr> <!-- table row -->
+                    <td>Snoop</td> <!-- table data (cell) -->
+                    <td>Dogg</td>
+                </tr>
+                <tr>
+                    <td>Ice</td>
+                    <td>Cube</td>
+                </tr>
+                <tr>
+                    <td>Marshall</td>
+                    <td>Mathers</td>
+                </tr>
+
+                <tr>
+                    <td>Sany</td>
+                    <td>DeLuxe</td>
+                </tr>
+            </tbody>
+
+            <!-- FOOTER -->
+            <tfoot>
+                <tfoot>
+                    <td colspan="2">Made by me</td>
+                </tfoot>
+
+            </tfoot>
+
+        </table>
+
+
+    
+</body>
+</html>

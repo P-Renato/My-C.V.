@@ -1,0 +1,48 @@
+body {
+    background-color: lightblue;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* Padding demo */
+
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: salmon;
+    margin: 15px;
+}
+
+.paddingDemo {
+    padding: 10px;
+}
+
+/* box-size demo */
+
+.boxSizebox {
+    padding: 20px;
+    box-sizing: border-box;
+    /* The width and height properties will be 
+    adjusted to accomodate padding and border, 
+    but not the margin sothat the box doeesn't grow
+    */
+}
+
+/* margin demo */
+
+.marginDemo {
+    background-color: lightgreen;
+    margin: 15px;
+
+}
+
+.center {
+    background-color: lightseagreen;
+    width: 100px;
+    text-align: center;
+    margin: 0 auto;
+    /* The browser takes the available space and 
+    distributes it on the left and right of the element. 
+    Result.. the element will be centered  */
+}
+

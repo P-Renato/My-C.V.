@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+
+    <h1>CSS Units</h1>
+
+    <!-- 
+    CSS units are important because they help us set dimenseions (width, height, margin, font-size, etc)
+    We have 2 types of units:
+    - absolute
+    - relative
+    
+    -->
+
+        <h2>Absolt unit - keep the same size at all times </h2>
+
+
+
+        <div class="pxExemple"> Dimension set in PX </div>
+        <ul>
+            <li>Pixels looks the same across all devices</li>
+            <li>Easy to work with</li>
+            <li>Not good for reponsive design</li>
+            <li>Use them for minor adjustments (shadows, borders, etc )</li>
+        </ul>
+
+
+        <!-- 
+        % is relative to its immidiate parent
+        -->
+
+        <div class="box percent">25%</div>
+
+        <div class="parent">
+            <div class="box percent">25%</div>
+
+        </div>
+
+        <ul>
+            <li>% is relative to its immidiate parent </li>
+            <li>Very useful for building layouts that shrink and grow </li>
+            <li>Usage - Large layout concerns</li>
+        </ul>
+
+        <!--
+        Viewport height and viewport width are relativeto entire screen size.
+        (scrollbar included)
+        -->
+        <div class="box vw">25vw</div>
+        <div class="box vh">25vh</div>
+
+        <h2>Viewport inside parent</h2>
+
+        <div class="parent">
+        <div class="vw box">25vw</div>
+        <div class="vh box">25vh</div>
+
+    </div>
+
+    <ul>
+        <li>Relative to the viewport </li>
+        <li>Useful to fill up entire width or height </li>
+    
+    </ul>
+
+    <h2>Font (use rem or em)</h2>
+    <!-- 
+    rem are relative to the font-size of root element (html) 
+    em are relative to the font-size of its immediate parent
+    -->
+
+    <div class="one-rem">1rem</div>
+    <div class="one-em">1em</div>
+    <br>
+    <div class="two-rem">2rem</div>
+    <div class="two-em">2em</div>
+
+
+    <div class="parent2"> <!-- parent has its own font size -->
+        <div class="two-rem">2rem</div>
+        <div class="two-em">2em</div>
+    </div>
+    
+
+
+
+
+
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,49 @@
+body {
+    background-color: aquamarine;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+p {
+    background-color: aliceblue;
+    padding: 1rem;
+    border-radius: 1rem;
+    border: 3px dashed;
+
+}
+
+/*
+h1, p {
+    display: inline-block;
+    width: 20em;
+}
+*/
+
+.rappers {
+    background-color: lightpink;
+    width: 50%;
+    border-collapse: collapse; /* removes extra space between rows and cells */
+}
+
+/*
+:nth-child() can take number values or even/odd ( for zebre efect )
+*/
+.rappers tr:nth-child(even) {
+    background-color: lightblue;
+
+}
+
+.rappers td, 
+.rappers th { /* td and th will share the same styles */
+    border: 1px solid;
+    padding: 1rem;
+    text-align: center;
+}
+
+tfoot td {
+    background-color: red;
+}
+
+.rappers tr:nth-child(2) { /* Only the TR that is a second child 
+    of its parent will be affected*/ 
+    background-color: lightgreen;
+}

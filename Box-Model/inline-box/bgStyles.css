@@ -1,0 +1,34 @@
+.box {
+    width: 250px;
+    height: 250px;
+    background-color: green;
+    color: black;
+    margin-bottom: 5px;
+    display: inline-block;
+}
+
+/*
+
+Display block - elements will be stacked on top of each other
+
+Display inline - elements will be stacked next to each other, 
+but will not honor width and height
+
+Display inline-block - elements will be stacked next to each other 
+AND rhonor width and height
+
+*/
+
+.box1 {
+    background-image: url(T-Rex-Img.jpeg);
+    background-position: center;
+    background-size: 250px;
+
+}
+
+.box2 {
+    background-image: url(https://e7.pngegg.com/pngimages/487/456/png-clipart-computer-icons-business-logo-youtube-cartoon-green-small-rocket-cartoon-character-painted-thumbnail.png);
+    
+
+
+}

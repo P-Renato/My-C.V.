@@ -1,0 +1,63 @@
+body {
+    background-color: lightgrey;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.pxExemple {
+    background-color: #f0f0f2;
+    width: 100px;
+    height: 100px;
+    font-size: 12px; /* never set font-size in px cosit overrides browser settings */
+}
+
+.box {
+    height: 30px;
+    background-color: #fdfdff;;
+    border: 2px solid black;
+    font-weight: bold;
+}
+
+/* Percentage Demo  */
+
+.percent {
+    width: 25%;
+}
+
+.parent {
+    width: 150px;
+    background-color: #f0f0f2;
+}
+
+/* Viewport Demo */
+
+.vw {
+    width: 25vw; /* Relative to viewport */
+}
+
+.vh {
+    height: 25vh;
+    background-color: lightblue;
+}
+
+/* EM REM Demo */
+
+.one-rem {
+    font-size: 1rem; /* corresponds to 16px (default )*/
+}
+
+.one-em {
+    font-size: 1em;
+}
+
+.two-rem{
+    font-size: 2rem;
+}
+
+.two-em{
+    font-size: 2em;
+}
+
+.parent2 {
+    font-size: 3rem;
+    background-color: mediumaquamarine;
+}
