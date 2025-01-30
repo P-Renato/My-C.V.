@@ -27,8 +27,45 @@ AND rhonor width and height
 }
 
 .box2 {
-    background-image: url(https://e7.pngegg.com/pngimages/487/456/png-clipart-computer-icons-business-logo-youtube-cartoon-green-small-rocket-cartoon-character-painted-thumbnail.png);
-    
-
-
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/6/6b/Cute_smiley_face_with_flower_%28Userbox_friendly%29.jpg);
+    background-repeat: repeat-y;
 }
+
+/* gradients */
+.box3 {
+    background:linear-gradient(to left,red,yellow);
+    background:linear-gradient(45deg,red,yellow);
+}
+
+.box4 {
+    background: radial-gradient(red, yellow);
+    background: radial-gradient(red, yellow);
+}
+
+.box5 {
+    background: linear-gradient(
+            rgba(251, 255, 0, 0.74),
+            rgba(247, 0, 255, 0.5)
+          )
+        /* Students: ask ChatGPT to explain what an rgba is and what it does */
+}
+
+.box6 {
+    background: linear-gradient(
+        rgba(255, 0, 0, 0.5),
+        rgba(0, 255, 0, 0.5)
+      ),
+      url("https://images.unsplash.com/photo-1526336024174-e58f5cdd8e13?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8Y2F0fGVufDB8fDB8fHww")
+        center;
+    /* Students: ask ChatGPT to explain this */
+  }
+
+  .box7 {
+    background-image: repeating-linear-gradient(
+    45deg,
+    rgba(85, 60, 154, 0.5),
+    rgba(85, 60, 154, 0.5) 50px,
+    rgba(179, 147, 211, 0.5) 50px,
+    rgba(179, 147, 211, 0.5) 100px
+  ),linear-gradient(to right,#ff007f,#ff6b2d);
+  }

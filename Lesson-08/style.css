@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{ 
+    background-color: beige;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+    background-color: lightblue;
+    padding: 1rem;
+
+}
+
+.flex-container {
+    display: flex;
+}
+
+.item {
+    width: 10rem;
+    height: 10rem;
+    background-color: lightsalmon;
+    border: 1px solid darkgrey;
+
+    /* I want the text in the middle of the box */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+/* ORDER */
+
+/* By default flex items are laid out based on the source order. 
+We can modify that using the order property.
+
+Do NOT modify the order of interactive items (menus, form elements etc..
+because that would be an accessibility no-go.
+
+By default all items have an order of 0;
+Lowest order value comes first, highest comes last.
+
+These values make no sense individually, you have to consider the 
+group they apply to.
+
+
+*/
+
+.one {
+    order: 0;
+    background-color: lightcyan;
+}
+
+.two {
+    order: 1;
+    background-color: lightgreen;
+}
+
+.three {
+    order: 0;
+    background-color: lightpink;
+}
+
+.four {
+    order: 0;
+
+}
+
+/* 
+The flex-grow propertyin CSS specifies how much a flex
+item should grow relative to its siblings,
+It accepts unitless value that serves as a proportion
+
+*/
+
+
+
+.one {
+    flex-grow: 1;
+}
+
+.two {
+    flex-grow: 1;
+}
+
+.three {
+    flex-grow: 50;
+    /* This item will grow 50 times more than an item with flex-grow:1 */
+}
+
+.four {
+    flex-grow: 1;
+}
+
+
+/*
+Flex-shrink 
+This defines the ability for a flex item to shrink if necessary.
+DEFAULT 1
+*/
+
+.four {
+    flex-shrink: 10;
+}
+
+/* DEMO align-self */
+
+h2 {
+    margin: 1rem;
+}
+
+.flex-container2 {
+    width: 300px;
+    height: 300px;
+    background-color: lightblue;
+
+    display: flex;
+}
+
+.flex-item {
+    background-color: chartreuse;
+    width: 10rem;
+    border: 2px solid black;
+}
+
+.flex-start {
+    align-self: flex-start;
+}
+
+.flex-end {
+    align-self: flex-end;
+}
+
+.center {
+    align-self: center;
+}
+
+.baseline {
+    align-self: baseline;
+}
+
+.stretch {
+    align-self: stretch;
+}
