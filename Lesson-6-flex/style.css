@@ -1,0 +1,56 @@
+body {
+    background-color: beige;
+}
+
+.flex-container { /* Flex parent */
+    border: 2px solid black;
+    background-color: aqua;
+    display: flex; /* can only be applied only for the parent */
+    /* We can change direction row-column using flex-direction */
+    flex-direction: row; /* default*/
+    /* for flex to jump to the next line (according to space)
+    use flex-wrap */
+    flex-wrap: wrap;
+
+    /* use justify-content to distribute children in the horizontal axis */
+    justify-content: space-around;
+
+    /* add a height to the parent */
+    min-height: 300px;
+
+    /* use align content to distribute flex children vertically  */
+
+    align-content: center; 
+
+    align-items: center;
+}
+
+.flex-item { /* flex child */
+    background-color: lightblue;
+    border: 1px solid black;
+    padding: 1rem;
+
+}
+
+
+/* DEMO min-height
+.test {
+    margin-top: 50px;
+    background-color: lightcoral;
+    width: 200px;
+    min-width: 100px;
+}
+    */
+
+    .flex-container2 {
+        width: 500px;
+        height: 300px;
+        margin: 2rem 0;
+        background-color: blueviolet;
+        display: flex;
+        align-items: flex-end;
+        /* To add space between flex-children use the gap property */
+        gap: 10px;
+        justify-content: flex-end;
+
+    }

@@ -1,0 +1,28 @@
+/* Cascading */
+
+/* id > class > tag */
+/* parental tags, get stronger, because of specificity*/
+
+body #greeting{
+    color: rgb(241, 13, 203);
+}
+
+.my-text {
+    color: rgb(255, 187, 0);
+}
+
+p {
+    color: red;
+}
+
+#greeting {
+    color: rgb(255, 159, 33);
+}
+
+div p {
+    color: blue;
+}
+
+p {
+    color: green;
+}
