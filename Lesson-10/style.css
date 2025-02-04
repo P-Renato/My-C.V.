@@ -1,0 +1,51 @@
+  /* selecting one of my icons changing color and size */
+  .my-cart {
+    color: red;
+    font-size: 2rem;
+  }
+  a {
+    color: gray;
+  }
+
+  .fa-burger {
+    color: red;
+    font-size: 200%;
+    margin: 10px;
+  }
+  /* a pseudo class to change the style of the link after it has been visited */
+  a:visited {
+    color: green;
+  }
+
+  /* a pseudo class to change the style of an element when its being clicked */
+  h1:active {
+    color: red;
+  }
+
+  /* hiding 2 icons and showing one */
+  .fa-volume-high,
+  .fa-volume-off {
+    display: none;
+  }
+
+  /* hiding 2 icons and showing one when the button is hovered or clicked */
+  button:hover {
+    .fa-volume-high {
+      display: block;
+    }
+    .fa-volume-low {
+      display: none;
+    }
+  }
+
+  button:active {
+    .fa-volume-off {
+      display: block;
+    }
+    .fa-volume-high {
+      display: none;
+    }
+    .fa-volume-low {
+      display: none;
+    }
+  }
