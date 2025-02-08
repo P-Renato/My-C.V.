@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+header {
+    background-color: #17f58dab;
+    display: flex;
+    width: 100vw;
+    position: fixed;
+    z-index: 2;
+    justify-content: center;
+    align-items: center;
+    height: 7rem;
+
+
+}
+
+.icons img {
+    max-width: 5vw;
+    height: 5vh;
+    background-color: #eeeeee;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.logo img {
+    max-width: 20vw;
+    height: 12vh;
+    /* padding: 5px; */
+
+}
+
+main {
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/6/63/Sherwood_Forest_%289592%29.jpg);
+    background-size: cover;
+    min-height: 60hw;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+    top: 7rem;
+}
+
+.wrapper {
+    border: 5px solid #17f58dab;
+    /* border-radius: 10px; */
+    display: flex;
+    position: relative;
+    z-index: 1;
+    min-height: 40rem;
+    width: 80vw;
+    top: 3rem;
+
+
+    padding: 1rem;
+}
+ul {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    /* flex-direction: column; */
+    list-style: none;
+    width: 100vw;
+    height: 100vh;
+}
+
+li {
+    margin: 1rem 0.5rem;
+    flex-shrink: 2;
+}
+
+a {
+    font-size: 0.6rem;
+    color: black;
+    background-color: #17f58dab;
+    text-decoration: none;
+    padding: 0.3rem;
+
+}
