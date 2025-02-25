@@ -1,3 +1,6 @@
 [submodule "uib-03/uib-03/uib-3-P-Renato"]
 	path = uib-03/uib-03/uib-3-P-Renato
 	url = https://github.com/dci-fbw-wd-24-e10/uib-3-P-Renato.git
+[submodule "Lesson-6-flex/Lesson-6-flex/Lesson-6"]
+	path = Lesson-6-flex/Lesson-6-flex/Lesson-6
+	url = git@github.com:P-Renato/Lesson-6.git
