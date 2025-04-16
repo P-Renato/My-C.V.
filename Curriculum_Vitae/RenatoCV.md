@@ -10,8 +10,8 @@
 
 ## Skills
 
-- **Programming Languages**: HTML, CSS
-- **Tools**: Git, GitHub, Visual Studio Code, 
+- **Programming Languages**: HTML, CSS, JavaScript, TypeScript, Vite, SASS.
+- **Tools**: GitHub, Visual Studio Code, 
 
 ## Professional Summary:
 
