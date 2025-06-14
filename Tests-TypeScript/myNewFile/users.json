@@ -1,14 +1,16 @@
 [
   {
-    "firstName": "Georgian",
-    "lastName": "Arrascaeta",
-    "email": "fasss@feme.com",
-    "password": "garrasca"
+    "firstName": "mnb",
+    "lastName": "mnb",
+    "userName": "mnb",
+    "email": "mnb@mnb.com",
+    "password": "$2b$10$tCJRdd..AJFWclE7k4QxIu5MXvyMC1Sw//IjA1oZseDPUkiWjVNfe"
   },
   {
-    "firstName": "Pedro",
-    "lastName": "Queixada",
-    "email": "pedro@pedro.com",
-    "password": "pedro"
+    "firstName": "asd",
+    "lastName": "dsa",
+    "userName": "asd",
+    "email": "asd@asd.com",
+    "password": "$2b$10$dm9veXU6diBwgAE.XzUXHO/Q5RhRP1dnhYT3aHU7rGLet7DEO99g2"
   }
 ]

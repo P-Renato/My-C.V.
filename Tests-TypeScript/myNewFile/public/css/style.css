@@ -89,7 +89,8 @@ form {
 }
 
 
-.submitButton{
+.submitButton,
+.submitLoginButton{
   width: 100%;
   align-self: center;
   border: none;
@@ -98,11 +99,9 @@ form {
   border-radius: 2rem;
 }
 
-
-
-
-
-
+.hidden {
+  display: none;
+}
 
 
 

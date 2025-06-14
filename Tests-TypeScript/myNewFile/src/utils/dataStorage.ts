@@ -1,9 +1,11 @@
 import fs from 'fs';
 import path from 'path';
-import { User } from '../types';
+import { User } from '../types/types';
 
 
-const filePath = path.resolve(__dirname, '../users.json'); // __dirname works now ✅
+const filePath = path.resolve(process.cwd(), '../users.json'); // __dirname works now ✅
+console.log('Resolved users.json path:', filePath);
+
 
 export const loadUsers = (): User[] => {
   if (!fs.existsSync(filePath)) return [];

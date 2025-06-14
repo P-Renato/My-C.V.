@@ -4,8 +4,8 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + TS</title>
-    <link rel="stylesheet" href="css/style.css">
+    <title>Profile Page</title>
+    <link rel="stylesheet" href="./public/css/profile.css">
   </head>
   <body>
     <!-- <div id="app"></div> -->
@@ -25,48 +25,30 @@
     </header>
     <main>
 
-      <form class=" loginForm" action="">
-        <div class="formToFill">
-          <label for="userNameLogin">Username: </label>
-          <input type="text" name="userNameLogin" id="userNameLogin" required>
-        </div>
-        <div class="formToFill">
-          <label for="passwordLogin">Password: </label>
-          <input type="password" name="passwordLogin" id="passwordLogin" required>
-        </div>
-        <button class="submitLoginButton">Login</button>
-        <span>New here? </span><a href="" class="linkToForm">Register here</a>
-      </form>
+     <nav class="profileHeader">
+         <nav class="profileImg">
+        <img src="IMG_1408[1].JPG" alt="profileImg">
+      </nav>
 
-      
-      <form class="registerForm hidden" action="">
-        <div class="formToFill">
-          <label for="firstName">First Name: </label>
-          <input type="text" name="firstName" id="firstName" required>
-        </div>
-        <div class="formToFill">
-          <label for="lastName">Last Name: </label>
-          <input type="text" name="lastName" id="lastName" required>
-        </div>
-        <div class="formToFill">
-          <label for="userName">User Name: </label>
-          <input type="text" name="userName" id="userName" required>
-        </div>
-        <div class="formToFill">
-          <label for="email">Enter E-mail: </label>
-          <input type="email" name="email" id="email" required>
-        </div>
-        <div class="formToFill">
-          <label for="password">Enter Password: </label>
-          <input type="password" name="password" id="password" required>
-        </div>
-        <button class="submitButton">Submit</button>
-      </form>
+      <nav class="infoMenu">
+        <ul>
+            <li><h2>Affonso Flanders</h2></li> 
+            <li>Profession: Web Developer</li>
+            <li>Lives in: Berlin - DE </li>
+            <li>From: Brazil</li>
+        </ul>
+      </nav>
+     </nav>
+     <section class="buttonSection">
+        <button>Friends</button>
+        <button>Photos</button>
+        <button>Comments</button>
+     </section>
 
       
     </main>
     
-<script type="module" src="./src/main.ts"></script>
+<script type="module" src="./src/main.ts"></script>                                     
     
   </body>
 </html>
